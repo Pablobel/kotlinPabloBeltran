@@ -21,32 +21,39 @@
         android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
 
     <Button
         android:id="@+id/btnCambiarColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="24dp"
         android:text="Cambiar color"
-        app:layout_constraintTop_toBottomOf="@id/cuerpo"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cuerpo" />
 
     <Button
         android:id="@+id/btnCambiarActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="24dp"
         android:text="Ir a Activity 2"
-        app:layout_constraintTop_toBottomOf="@id/btnCambiarColor"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCambiarColor" />
 
     <EditText
         android:id="@+id/editTextMensaje"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="345dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="20dp"
         android:hint="Escribe un mensaje aquí"
-        app:layout_constraintTop_toBottomOf="@id/btnCambiarActivity"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/btnCambiarActivity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
